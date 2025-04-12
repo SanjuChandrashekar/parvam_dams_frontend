@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline Flex Example</title>
+  <style>
+    .container {
+        background-color: blue;
+      display: flex;
+      justify-content:space-around;
+      align-items: center;
+    }
+    .photo, .video {
+    
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .video {
+      width: 300px;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="C:\Users\Admin\OneDrive\Desktop\PARVAM1\video\p.png" alt="description of image" class="photo">
+    
+    <video class="video" controls>
+        <source src="C:\Users\Admin\OneDrive\Desktop\PARVAM1\video\5538137-hd_1920_1080_25fps.mp4" type="video/mp4">
+      
+    </video>
+    <img src="./video/p.png" alt="description of image" class="photo">
+  </div>
+
+</body>
+</html>
